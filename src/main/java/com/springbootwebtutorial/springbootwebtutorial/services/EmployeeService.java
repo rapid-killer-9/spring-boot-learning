@@ -39,10 +39,10 @@ public class EmployeeService {
         return modelMapper.map(savedEmployeeEntity,EmployeeDTO.class);
     }
 
-//    public EmployeeDTO updateEmployeeById(Long employeeId, EmployeeDTO employeeDTO) {
-//        EmployeeEntity employeeEntity = modelMapper.map(employeeDTO, EmployeeEntity.class);
-//        employeeEntity.setId(employeeId);
-//        EmployeeEntity savedEmployeeEntity = employeeRepositories.save(employeeEntity);
-//        return modelMapper.map(savedEmployeeEntity,EmployeeDTO.class);
-//    }
+    public EmployeeDTO updateEmployeeById(Long employeeId, EmployeeDTO employeeDTO) {
+        EmployeeEntity employeeEntity = modelMapper.map(employeeDTO, EmployeeEntity.class);
+        employeeEntity.setId(employeeId);
+        EmployeeEntity savedEmployeeEntity = employeeRepositories.save(employeeEntity);
+        return modelMapper.map(savedEmployeeEntity,EmployeeDTO.class);
+    }
 }
