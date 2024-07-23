@@ -1,10 +1,10 @@
-package com.learning.harsh.week1springbootintroduction.week1SpringIntoduction;
+package com.springbootwebtutorial.springbootwebtutorial;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Week1SpringIntoductionApplicationTests {
+class SprnigBootWebTutorialApplicationTests {
 
 	@Test
 	void contextLoads() {
