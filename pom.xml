@@ -8,10 +8,10 @@
 		<version>3.3.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.learning.harsh.week1springbootintroduction</groupId>
-	<artifactId>week1SpringIntoduction</artifactId>
+	<groupId>com.Alice_and_her_Bakery</groupId>
+	<artifactId>Alice_and_her_Bakery</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>week1SpringIntoduction</name>
+	<name>Alice_and_her_Bakery</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
